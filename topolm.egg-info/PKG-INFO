@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: topolm
-Version: 0.9.1
+Version: 0.0.4
 Summary: Topology-native explainable language model prototype powered by Topologist
 Author: Robert McMenemy
 Requires-Python: >=3.10

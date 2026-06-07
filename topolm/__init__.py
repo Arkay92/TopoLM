@@ -13,4 +13,4 @@ __all__ = [
     "load_hf_dataset",
     "hf_dataset_texts",
 ]
-__version__ = "0.9.1"
+__version__ = "0.0.4"
