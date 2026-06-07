@@ -1,8 +1,21 @@
 Metadata-Version: 2.4
 Name: topolm
-Version: 0.0.7
+Version: 0.0.9
 Summary: Topology-native explainable language model prototype powered by Topologist
 Author: Robert McMenemy
+License: MIT
+Project-URL: Homepage, https://github.com/Arkay92/TopoLM
+Project-URL: Repository, https://github.com/Arkay92/TopoLM.git
+Project-URL: Bug Tracker, https://github.com/Arkay92/TopoLM/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
 Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 License-File: LICENSE
@@ -412,34 +425,6 @@ twine check dist/*
 
 ---
 
-## Publishing
-
-### PyPI Setup
-
-1. Create a [PyPI account](https://pypi.org/account/register/).
-2. Generate an [API token](https://pypi.org/manage/account/tokens/).
-3. Store as a GitHub secret named `PYPI_API_TOKEN`.
-
-### Publish via CI
-
-Tag and push a release:
-
-```bash
-git tag v0.9.2
-git push origin v0.9.2
-```
-
-The GitHub Actions workflow `.github/workflows/publish.yml` will automatically build and publish to PyPI.
-
-### Manual Publishing
-
-```bash
-python -m build
-twine upload dist/*
-```
-
----
-
 ## Limitations and Future Work
 
 - **No fine-tuning**: TopoLM learns from corpus statistics; no gradient-based learning.
@@ -477,7 +462,7 @@ If you use TopoLM in research, please cite:
   author={McMenemy, Robert},
   url={https://github.com/Arkay92/TopoLM},
   year={2024},
-  version={0.0.7},
+  version={0.0.9},
 }
 ```
 

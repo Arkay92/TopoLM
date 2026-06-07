@@ -426,7 +426,7 @@ If you use TopoLM in research, please cite:
   author={McMenemy, Robert},
   url={https://github.com/Arkay92/TopoLM},
   year={2024},
-  version={0.0.7},
+  version={0.0.9},
 }
 ```
 
