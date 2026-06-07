@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: topolm
-Version: 0.0.9
+Version: 0.0.10
 Summary: Topology-native explainable language model prototype powered by Topologist
 Author: Robert McMenemy
 License: MIT
@@ -462,7 +462,7 @@ If you use TopoLM in research, please cite:
   author={McMenemy, Robert},
   url={https://github.com/Arkay92/TopoLM},
   year={2024},
-  version={0.0.9},
+  version={0.0.10},
 }
 ```
 
