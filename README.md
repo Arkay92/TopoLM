@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img width="256" height="256" alt="ChatGPT Image Jun 7, 2026, 11_38_36 AM" src="https://github.com/user-attachments/assets/969082e0-bb1c-4cda-9551-9cefdd23a06b" />
+  <img width="256" height="256" alt="TopoLM Logo" src="https://github.com/Arkay92/TopoLM/blob/main/TopoLM.png?raw=true" />
 </p>
 
 <p align="center">
@@ -426,7 +426,7 @@ If you use TopoLM in research, please cite:
   author={McMenemy, Robert},
   url={https://github.com/Arkay92/TopoLM},
   year={2024},
-  version={0.0.11},
+  version={0.1.0},
 }
 ```
 

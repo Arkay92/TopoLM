@@ -773,7 +773,7 @@ class TopoLM:
         self.mem.save_state(path)
         (path / "sentences.json").write_text(json.dumps(self.mem.sentences, indent=2), encoding="utf-8")
         (path / "manifest.json").write_text(
-            json.dumps({"version": "topolm-0.0.11", "time": time.time()}, indent=2),
+            json.dumps({"version": "topolm-0.1.0", "time": time.time()}, indent=2),
             encoding="utf-8",
         )
         return path
