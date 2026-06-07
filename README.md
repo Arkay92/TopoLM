@@ -389,34 +389,6 @@ twine check dist/*
 
 ---
 
-## Publishing
-
-### PyPI Setup
-
-1. Create a [PyPI account](https://pypi.org/account/register/).
-2. Generate an [API token](https://pypi.org/manage/account/tokens/).
-3. Store as a GitHub secret named `PYPI_API_TOKEN`.
-
-### Publish via CI
-
-Tag and push a release:
-
-```bash
-git tag v0.9.2
-git push origin v0.9.2
-```
-
-The GitHub Actions workflow `.github/workflows/publish.yml` will automatically build and publish to PyPI.
-
-### Manual Publishing
-
-```bash
-python -m build
-twine upload dist/*
-```
-
----
-
 ## Limitations and Future Work
 
 - **No fine-tuning**: TopoLM learns from corpus statistics; no gradient-based learning.
