@@ -29,6 +29,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install --upgrade build twine
 
+      - name: Clean previous distributions
+        run: rm -rf dist build *.egg-info
+
       - name: Build distributions
         run: python -m build
 
