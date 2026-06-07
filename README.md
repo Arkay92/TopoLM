@@ -12,6 +12,7 @@
   <a href="https://github.com/Arkay92/TopoLM/actions/workflows/publish.yml"><img alt="Publish" src="https://github.com/Arkay92/TopoLM/actions/workflows/publish.yml/badge.svg" /></a>
   <a href="https://pypi.org/project/topolm/"><img alt="PyPI" src="https://img.shields.io/pypi/v/topolm.svg" /></a>
   <img alt="Python" src="https://img.shields.io/pypi/pyversions/topolm.svg" />
+  <img alt="Downloads" src="https://img.shields.io/pypi/dm/topolm.svg" />
   <img alt="License" src="https://img.shields.io/pypi/l/topolm.svg" />
 </p>
 
@@ -453,7 +454,7 @@ If you use TopoLM in research, please cite:
   author={McMenemy, Robert},
   url={https://github.com/Arkay92/TopoLM},
   year={2024},
-  version={0.0.4},
+  version={0.0.6},
 }
 ```
 
